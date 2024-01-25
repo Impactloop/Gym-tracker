@@ -1,10 +1,8 @@
 import subprocess
 import sys
-
-# Listado de librerías necesarias
+    # Listado de librerías necesarias
 required_libraries = ['pandas', 'seaborn', 'matplotlib', 'PySimpleGUI']
-
-# Comprobación de la existencia de librerías
+    # Comprobación de la existencia de librerías
 for library in required_libraries:
     try:
         __import__(library)
